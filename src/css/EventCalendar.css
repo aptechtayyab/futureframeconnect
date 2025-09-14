@@ -1,0 +1,214 @@
+
+/* Header Style */
+.event-cale-title {
+  background: linear-gradient(135deg, #0a0f2c, #11183a);
+  color: #ffffff;
+  padding: 20px 15px;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/*Filters Section */
+.event-cale-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.event-cale-filters label {
+  font-weight: 600;
+  color: #0a0f2c;
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+.event-cale-filters select {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid #0a0f2c;
+  background-color: #ffffff;
+  color: #0a0f2c;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.event-cale-filters select:focus {
+  border-color: #11183a;
+  box-shadow: 0 0 8px rgba(17, 24, 58, 0.4);
+  outline: none;
+}
+
+/*  Calendar Table */
+.event-cale-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.event-cale-table caption {
+  background-color: #0a0f2c;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.event-cale-table th {
+  background-color: #11183a;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.event-cale-table td {
+  border: 1px solid #e0e0e0;
+  vertical-align: top;
+  padding: 6px;
+  min-height: 70px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+/* Day Number */
+.event-cale-date {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #0a0f2c;
+}
+
+/*  Event Badges */
+.event-cale-event {
+  padding: 4px 8px;
+  margin-bottom: 3px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #ffffff;
+  display: block;
+  overflow-wrap: break-word;
+}
+
+/* Event Type Colors */
+.event-cale-event.academic { background-color: #4a90e2; }
+.event-cale-event.technical { background-color: #50e3c2; color: #0a0f2c; }
+.event-cale-event.cultural { background-color: #f5a623; }
+.event-cale-event.sports { background-color: #d0021b; }
+
+/* 🌐 Calendar Body */
+.event-cale-body {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 💻 Responsive */
+@media (max-width: 1024px) {
+  .event-cale-title {
+    font-size: 2.2rem;
+    padding: 18px 12px;
+  }
+
+  .event-cale-filters label {
+    font-size: 1rem;
+  }
+
+  .event-cale-filters select {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+  }
+
+  .event-cale-table th, .event-cale-table td {
+    font-size: 0.9rem;
+    padding: 5px 3px;
+  }
+
+  .event-cale-date {
+    font-size: 0.95rem;
+  }
+
+  .event-cale-event {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-cale-title {
+    font-size: 1.8rem;
+    padding: 15px 10px;
+  }
+
+  .event-cale-filters {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .event-cale-filters label {
+    font-size: 0.95rem;
+  }
+
+  .event-cale-filters select {
+    font-size: 0.9rem;
+    padding: 5px 8px;
+  }
+
+  .event-cale-table th, .event-cale-table td {
+    font-size: 0.8rem;
+    padding: 4px 2px;
+  }
+
+  .event-cale-date {
+    font-size: 0.85rem;
+  }
+
+  .event-cale-event {
+    font-size: 0.75rem;
+    padding: 2px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-cale-title {
+    font-size: 1.5rem;
+  }
+
+  .event-cale-filters {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .event-cale-filters label {
+    font-size: 0.85rem;
+  }
+
+  .event-cale-filters select {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .event-cale-table th, .event-cale-table td {
+    font-size: 0.75rem;
+    padding: 3px 2px;
+  }
+
+  .event-cale-date {
+    font-size: 0.75rem;
+  }
+
+  .event-cale-event {
+    font-size: 0.7rem;
+    padding: 2px 4px;
+  }
+}

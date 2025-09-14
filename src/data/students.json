@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Ali Raza",
+      "designation": "Student Coordinator – IT Club & Sports Club",
+      "email": "ali.raza@college.edu",
+      "phone": "+92 311 7654321",
+      "location": "IT Club Office – Ground Floor",
+      "hours": "After 3 PM",
+      "image": "https://img.freepik.com/premium-photo/professor-teaching-classroom_951586-130165.jpg"
+    },
+    {
+      "name": "Sara Ahmed",
+      "designation": "Student Coordinator – Cultural Society",
+      "email": "sara.ahmed@college.edu",
+      "phone": "+92 322 9876543",
+      "location": "Society Office – Main Block",
+      "hours": "Evenings 12 to 5",
+      "image": "https://trauma-recovery.net/wp-content/uploads/2013/09/katie-mclaughlin.jpg"
+    },
+    {
+      "name": "Hassan Ali",
+      "designation": "Student Coordinator – Sports Club",
+      "email": "hassan.ali@college.edu",
+      "phone": "+92 313 2233445",
+      "location": "Sports Complex",
+      "hours": "Weekends",
+      "image": "https://img.freepik.com/premium-photo/professor-teaching-classroom_951586-129181.jpg"
+    },
+    {
+      "name": "Fatima Noor",
+      "designation": "Student Coordinator – Debate Society",
+      "email": "fatima.noor@college.edu",
+      "phone": "+92 300 6677889",
+      "location": "Library Hall – Room 12",
+      "hours": "Mon, Wed, Fri",
+      "image": "https://www.readingplus.com/wp-content/uploads/2021/04/03_User-Experience_Teachers.jpg"
+    }
+  ]
+  

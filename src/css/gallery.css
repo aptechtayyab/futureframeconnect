@@ -1,0 +1,163 @@
+/* ===========================
+   📸 Gallery Card Styling (Updated)
+   =========================== */
+   .gallery-card {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* ✅ square cards, same height & width */
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .gallery-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(10, 15, 44, 0.4); /* theme color shadow */
+  }
+  
+  /* ✅ Image always fills top, perfect crop */
+  .gallery-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    display: block;
+    border-bottom: 2px solid #0a0f2c20;
+  }
+  
+  /* ✅ Info always at bottom */
+  .gallery-info {
+    height: 30%;
+    padding: 12px;
+    background: linear-gradient(135deg, #f7f9fc, #e9ecf3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .gallery-info h5 {
+    margin: 0 0 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0a0f2c; /* theme dark blue */
+  }
+  
+  .gallery-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #0a0f2c;
+    opacity: 0.7;
+  }
+  
+  /* 🌟 Animated border (theme) */
+  .gallery-card::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    border-radius: 18px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #0a0f2c 50%, transparent 50%) repeat-x,
+      linear-gradient(180deg, #0a0f2c 50%, transparent 50%) repeat-y,
+      linear-gradient(270deg, #0a0f2c 50%, transparent 50%) repeat-x,
+      linear-gradient(0deg, #0a0f2c 50%, transparent 50%) repeat-y;
+    background-size: 200% 4px, 4px 200%, 200% 4px, 4px 200%;
+    animation: moveBorder 4s linear infinite;
+    pointer-events: none;
+    z-index: 3;
+  }
+  
+  @keyframes moveBorder {
+    0% {
+      background-position: 0 0, 0 0, 100% 100%, 100% 100%;
+    }
+    100% {
+      background-position: 200% 0, 0 200%, -100% 100%, 100% -100%;
+    }
+  }
+  
+  /* 🌟 Responsive Fix */
+  @media (max-width: 768px) {
+    .gallery-card {
+      aspect-ratio: unset; /* on mobile, allow flexible height */
+      height: auto;
+    }
+  
+    .gallery-card img {
+      height: 200px;
+    }
+  }
+  /* ===========================
+   📸 Lightbox Overlay Styling
+   =========================== */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 15, 44, 0.85); /* dark semi-transparent bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  animation: zoomIn 0.3s ease forwards;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  z-index: 10000;
+}
+
+.lightbox-close:hover {
+  transform: scale(1.2);
+  color: #ff4d4f; /* subtle hover red */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .lightbox-img {
+    max-width: 95%;
+    max-height: 70%;
+  }
+
+  .lightbox-close {
+    top: 10px;
+    right: 20px;
+    font-size: 1.8rem;
+  }
+}

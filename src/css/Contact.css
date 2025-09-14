@@ -1,0 +1,122 @@
+
+.contact-hero {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(56, 14, 14, 0.7)),
+    url("/public/main-banner1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero-overlay {
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.contact-head {
+  color: #0a1f44;
+}
+
+.contact-card {
+  width: 500px;
+  height: 450px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-card:hover {
+  transform: scale(1.03);
+}
+
+.contact-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.contact-card-content {
+  padding: 20px;
+}
+
+.contact-card-content h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.contact-card-content p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.contact-card-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.contact-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0a0f2c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-card button:hover {
+  background-color: #11183a;
+}
+
+.contact-tab-btn {
+  font-weight: 600;
+  padding: 10px 26px;
+  border-radius: 6px;
+  border: 1px solid #000435;
+  transition: 0.5s ease-in-out;
+}
+
+.contact-tab-btn:hover {
+  background-color: #000435;
+  color: #fff;
+}
+
+.contact-active {
+  background: #000435;
+  color: #fff;
+}
+
+.contact-inactive {
+  background: #fff;
+  color: #000435;
+}
+
+.contact-map {
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+  border: 2px solid #0a1f44;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.animate-slide {
+  animation: fadeIn 1.2s ease-in-out;
+}

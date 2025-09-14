@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Ali Raza",
+      "role": "Software Student",
+      "text": "Campus Connect made event registration a breeze — I never miss a workshop now.",
+      "img": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Sana Khan",
+      "role": "Business Student",
+      "text": "I love getting timely reminders. The volunteer sign-up is superb.",
+      "img": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Hassan Ali",
+      "role": "Event Volunteer",
+      "text": "Very helpful platform for organizing multi-department events.",
+      "img": "https://randomuser.me/api/portraits/men/65.jpg"
+    }
+  ]
+  

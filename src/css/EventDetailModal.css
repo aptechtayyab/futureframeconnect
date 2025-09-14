@@ -1,0 +1,101 @@
+.eventdetail-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(7, 26, 59, 0.75);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    animation: eventdetail-fadeIn 0.3s ease-in-out;
+  }
+  
+  .eventdetail-modal-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    position: relative;
+    animation: eventdetail-scaleIn 0.35s ease-in-out;
+  }
+  
+  .eventdetail-modal-card h2 {
+    margin-bottom: 12px;
+    color: #071a3b;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .eventdetail-modal-highlight {
+    color: #0a58ca;
+  }
+  
+  .eventdetail-modal-subtitle {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .eventdetail-modal-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .eventdetail-modal-card input:focus {
+    border-color: #0a58ca;
+    box-shadow: 0 0 6px rgba(10, 88, 202, 0.3);
+  }
+  
+  .eventdetail-modal-card button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #071a3b, #0a58ca);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s ease, background 0.3s;
+  }
+  
+  .eventdetail-modal-card button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0a2a6a, #0d6efd);
+  }
+  
+  .eventdetail-modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .eventdetail-modal-close:hover {
+    color: #0a58ca;
+  }
+  
+  /* Animations */
+  @keyframes eventdetail-fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes eventdetail-scaleIn {
+    from { transform: scale(0.85); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  

@@ -1,0 +1,154 @@
+
+  header {
+    background: linear-gradient(135deg, #0a0f2c, #11183a);
+    color: #ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  }
+/* ---- Bookmark Icon (shared for Home & Detail) ---- */
+.bookmark-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #0a0f2c;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.bookmark-icon:hover {
+  background: #0a0f2c;
+  color: #fff;
+  transform: scale(1.1);
+}
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  header p.lead {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  section {
+    background-color: transparent;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #0a0f2c;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .filter-btn {
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-btn.btn-primary {
+    background-color: #0a0f2c;
+    border: none;
+    color: #ffffff;
+  }
+  
+  .filter-btn.btn-primary:hover,
+  .filter-btn.btn-primary.active {
+    background-color: #11183a;
+  }
+  
+  .filter-btn.btn-outline-secondary {
+    border: 1px solid #0a0f2c;
+    color: #0a0f2c;
+    background-color: transparent;
+  }
+  
+  .filter-btn.btn-outline-secondary:hover,
+  .filter-btn.btn-outline-secondary.active {
+    background-color: #0a0f2c;
+    color: #ffffff;
+  }
+  
+  .input-group {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  }
+  
+  #searchInput {
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  #searchInput:focus {
+    box-shadow: none;
+  }
+  
+  #searchButton {
+    background-color: #0a0f2c;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #searchButton:hover {
+    background-color: #11183a;
+  }
+  
+
+  
+  /* Responsive Fix */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .filter-buttons {
+      justify-content: flex-start;
+    }
+  
+    #events-container {
+      gap: 15px;
+    }
+  }
+  /* 🌟 Sort Dropdown */
+.sort-select {
+    border: 1px solid #0a0f2c;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0a0f2c;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .sort-select:focus {
+    border-color: #11183a;
+    box-shadow: 0 0 8px rgba(17, 24, 58, 0.4);
+    outline: none;
+  }
+  
+  .sort-select option {
+    font-size: 0.95rem;
+  }

@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Dr. Ayesha Khan",
+      "designation": "Faculty Coordinator – Computer Science",
+      "email": "ayesha.khan@college.edu",
+      "phone": "+92 300 1234567",
+      "location": "Block A – Room 210",
+      "hours": "Mon–Fri, 9 AM – 2 PM",
+      "image": "Dr.Ayesha Khan.avif"
+    },
+    {
+      "name": "Dr. Bilal Ahmed",
+      "designation": "Faculty Coordinator – Business Studies",
+      "email": "bilal.ahmed@college.edu",
+      "phone": "+92 321 9876543",
+      "location": "Block B – Room 105",
+      "hours": "Mon–Fri, 10 AM – 3 PM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKg-FjvGs_yIf6dlqviNGOAu-cIGlRWivTVfaWZ6Wz_xYIY5uK1mtUNJAJz8h0mqoSKh4&usqp=CAU"
+    },
+    {
+      "name": "Dr. Nadia Rehman",
+      "designation": "Faculty Coordinator – Physics & Chemistry",
+      "email": "nadia.rehman@college.edu",
+      "phone": "+92 333 5566778",
+      "location": "Science Block – Lab 5",
+      "hours": "Tue–Thu, 11 AM – 1 PM",
+      "image": "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/2511/files/2021/05/6697055189_f947d7a7a7_b.jpg"
+    },
+    {
+      "name": "Dr. Saqib Iqbal",
+      "designation": "Faculty Coordinator – Mathematics",
+      "email": "saqib.iqbal@college.edu",
+      "phone": "+92 345 9988776",
+      "location": "Block C – Room 307",
+      "hours": "Mon–Fri, 8 AM – 12 PM",
+      "image": "https://img.freepik.com/premium-photo/teacher-portrait-chalk-board-math-class-education-learning-professor-university-confidence-male-person-lecturer-face-usa-college-studying-numbers-equations-geometry_590464-284592.jpg"
+    }
+  ]
+  

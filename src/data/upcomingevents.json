@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "TechFest 2025",
+    "date": "2025-07-20T18:00:00",
+    "venue": "Lahore Stadium",
+    "description": "A dynamic technology festival showcasing innovation, coding competitions, and futuristic hackathons.",
+    "image": "hackathocoding.avif",
+    "link": "/events/techfest-2025"
+  },
+  {
+    "id": 2,
+    "title": "Cultural Week",
+    "date": "2025-08-05T10:00:00",
+    "venue": "City Cultural Center",
+    "description": "A vibrant cultural showcase featuring music, art, traditions, performances, and exhibitions for all.",
+    "image": "culturaldance.avif",
+    "link": "/events/cultural-week"
+  },
+  {
+    "id": 3,
+    "title": "Quantum Mechanics Talk",
+    "description": "A guest lecture on modern concepts of quantum mechanics.",
+    "date": "2025-08-05T10:00:00",
+    "venue": "Seminar Hall",
+    "image": "quantumphysics.avif",
+    "link": "/events/cultural-week"
+  },
+  {
+    "id": 11,
+    "title": "Photography Contest",
+    "description": "A competition capturing the beauty of campus life and creative themes.",
+    "date": "2025-09-15T09:00:00",
+    "venue": "Auditorium Lobby",
+    "image": "photography.avif"
+  }
+]

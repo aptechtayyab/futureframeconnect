@@ -1,0 +1,114 @@
+.card {
+  width: 100%;
+  height: 450px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.venue-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #0a0f2c;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.card-content {
+  padding: 20px;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  background-color: transparent;
+}
+
+.card-content h2 {
+  margin: 0 0 10px;
+  font-size: 1.4rem;
+  color: #0a0f2c;
+}
+
+.card-content p {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  color: #0a0f2c;
+  opacity: 0.85;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  color: #0a0f2c;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0a0f2c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #11183a;
+}
+
+/* White animated border on top of blue */
+.card::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-radius: 16px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #050a1a 50%, transparent 50%) repeat-x,
+    linear-gradient(180deg, #050a1a 50%, transparent 50%) repeat-y,
+    linear-gradient(270deg, #050a1a 50%, transparent 50%) repeat-x,
+    linear-gradient(0deg, #050a1a 50%, transparent 50%) repeat-y;
+  background-size: 200% 6px, 6px 200%, 200% 6px, 6px 200%;
+  animation: moveBorder 4s linear infinite;
+  pointer-events: none;
+  z-index: 3;
+}
+
+@keyframes moveBorder {
+  0% {
+    background-position: 0 0, 0 0, 100% 100%, 100% 100%;
+  }
+  100% {
+    background-position: 200% 0, 0 200%, -100% 100%, 100% -100%;
+  }
+}

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #f5f6fa;
+    overflow-x: hidden; 
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #00173dc9;
+    color: white;
+    padding: 12px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .logo, 
+  .logo * {
+    text-decoration: none !important;
+  }
+  .logo-link {
+    text-decoration: none !important;
+  }
+  .logo-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: white;
+    color: #0a1f44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s ease;
+    text-decoration: none !important;
+  }
+
+  .logo-icon:hover {
+    transform: rotate(360deg);
+  }
+
+  .logo-text {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .nav-links li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #0a1f44;
+    transition: width 0.3s ease;
+  }
+
+  .nav-links li a:hover::after {
+    width: 100%;
+  }
+
+  .nav-links li a:hover {
+    color: white;
+  }
+
+  .menu-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    background: transparent;
+    border: none;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: -220px;
+      background: #0a1f44;
+      flex-direction: column;
+      width: 220px;
+      padding: 20px;
+      gap: 20px;
+      transition: right 0.3s ease;
+      height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+  
+    .nav-links.active {
+      right: 0;
+    }
+  
+    .menu-btn {
+      display: block;
+    }
+  }

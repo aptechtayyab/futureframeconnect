@@ -1,0 +1,98 @@
+/* Footer.css - Dark Gradient Theme Matching EventCalendar & Header */
+
+/* 🌌 Footer Container */
+footer {
+  background: #00173dc9;
+  color: #ffffff;
+  padding: 20px 20px;
+  font-family: 'Arial', sans-serif;
+ 
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.25);
+}
+
+/* 🔗 Footer Links */
+footer a {
+  color: #cfe9ff;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+  color: #50e3c2; /* Match Event Type 'technical' */
+  transform: translateY(-2px);
+}
+
+/* ⚡ Section Styling */
+footer section {
+  margin-bottom: 25px;
+}
+
+footer h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+footer p {
+  color: #cfe9ff;
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+footer i {
+  color: #cfe9ff;
+  margin-right: 8px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer i:hover {
+  color: #50e3c2;
+  transform: scale(1.1);
+}
+
+/* 🌟 Flex Layout */
+footer .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .me-5 {
+  margin-right: 3rem !important;
+}
+
+footer .me-4 {
+  margin-right: 1.5rem !important;
+}
+
+/* ⚡ Divider */
+footer .border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 20px;
+}
+
+/* 🌐 Bottom Text */
+footer .text-center.p-4 {
+  background-color: rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+  color: #cfe9ff;
+  opacity: 0.8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* 💻 Responsive */
+@media (max-width: 768px) {
+  footer .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  footer .me-5.d-none.d-lg-block {
+    display: none !important;
+  }
+}
