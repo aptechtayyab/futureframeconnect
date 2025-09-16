@@ -13,11 +13,10 @@ const UpcomingDetails = () => {
   if (!event) return <div className="eventdetail-error">Event not found!</div>;
 
   return (
-    <div className="eventdetail-wrapper">
+    <div className="eventdetail-wrapper col-md-6 col-12 mx-auto my-3">
       <div className="eventdetail-card">
         <div className="eventdetail-img">
-         <img src={`/${event.image}`} alt={event.title} />
-
+          <img src={event.image} alt={event.title} />
         </div>
 
         <div className="eventdetail-body">

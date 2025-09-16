@@ -32,7 +32,7 @@ const About = () => {
           <div className="row g-4 align-items-center">
             <div className="col-12 col-lg-6 animate-slide">
               <img
-                src="https://scontent.fkhi11-2.fna.fbcdn.net/v/t39.30808-6/515443743_23879626468331459_6467095957623150203_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=VD4kQJHPUToQ7kNvwHlzW2y&_nc_oc=Adl-yzfHB-fouMt_zcCbPCIpITqC-l6pFh1E7C1TqIxSqVFOH8zu537dZ6Lu_ZuDW7RTa2HEoY2hDod5l8qgg-5f&_nc_zt=23&_nc_ht=scontent.fkhi11-2.fna&_nc_gid=Q4Tr_Z83TAOkTutji2rLdw&oh=00_AfbIu_nfyIPMEViEO0LAwQPeg3h5I0th4xfoBR2c6SUCIg&oe=68C61BAC"
+                src="/main-banner1.jpg"
                 alt="Campus Events"
                 className="img-fluid rounded shadow"
               />

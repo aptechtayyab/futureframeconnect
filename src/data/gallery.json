@@ -5,77 +5,77 @@
         "title": "Research Ideas Symposium",
         "year": "2022-23",
         "category": "academic",
-        "image": "Research Symposium.avif"
+        "image": "researchsymposium.jpg"
       },
       {
         "id": 2,
         "title": "Mathematics Skills Workshop",
         "year": "2023-24",
         "category": "academic",
-        "image": "math-workshop.avif"
+        "image": "MathematicsWorkshop.jpg"
       },
       {
         "id": 3,
         "title": "Science Project Fair",
         "year": "2024-25",
         "category": "academic",
-        "image": "science-fair.avif"
+        "image": "ScienceFair.jpg"
       },
       {
         "id": 4,
         "title": "Literature Study Seminar",
         "year": "2022-23",
         "category": "academic",
-        "image": "literature-seminar.avif"
+        "image": "LiteratureSeminar.jpg"
       },
       {
         "id": 5,
         "title": "Annual Tech Fest",
         "year": "2023-24",
         "category": "technical",
-        "image": "artificialintelligence2.avif"
+        "image": "technologyfestival.jpg"
       },
       {
         "id": 6,
         "title": "Artificial Intelligence Workshop",
         "year": "2024-25",
         "category": "technical",
-        "image": "artificialintelligence.avif"
+        "image": "WorkshopAI.jpg"
       },
       {
         "id": 7,
         "title": "Hackathon Coding Event",
         "year": "2022-23",
         "category": "technical",
-        "image": "hackathon,coding.avif"
+        "image": "Hackathon2023.jpg"
       },
       {
         "id": 8,
         "title": "Cyber Security Seminar",
         "year": "2023-24",
         "category": "technical",
-        "image": "cybersecurity.avif"
+        "image": "CyberSecuritySeminar.jpg"
       },
       {
         "id": 9,
         "title": "Cultural Celebration Night",
         "year": "2024-25",
         "category": "cultural",
-        "image": "culturaldance.avif"
+        "image": "CulturalNight.jpg"
       },
       {
         "id": 10,
         "title": "Art Design Exhibition",
         "year": "2022-23",
         "category": "cultural",
-        "image": "artpainting.avif"
+        "image": "ArtExhibition.jpg"
       },
       {
         "id": 11,
         "title": "Photography Talent Contest",
         "year": "2023-24",
         "category": "cultural",
-        "image": "photography.avif"
+        "image": "PhotographyContest.jpg"
       },
   
       {
@@ -83,77 +83,77 @@
         "title": "Cricket League Tournament",
         "year": "2023-24",
         "category": "sports",
-        "image": "cricket.webp"
+        "image": "CricketTournament.jpg"
       },
       {
         "id": 15,
         "title": "Football League Championship",
         "year": "2024-25",
         "category": "sports",
-        "image": "footballsoccer.webp"
+        "image": "FootballChampionship.jpg"
       },
       {
         "id": 16,
         "title": "Basketball Summer League",
         "year": "2022-23",
         "category": "sports",
-        "image": "basketball.avif"
+        "image": "BasketballLeague.jpg"
       },
       {
         "id": 17,
         "title": "Business Plan Competition",
         "year": "2023-24",
-        "category": "technical",
-        "image": "businessplan.avif"
+        "category": "Business Administration",
+        "image": "BusinessStrategySummit.jpg"
       },
       {
         "id": 18,
         "title": "Finance Skills Workshop",
         "year": "2024-25",
-        "category": "technical",
-        "image": "financemoney.avif"
+        "category": "Business Administration",
+        "image": "FinanceForum.jpg"
       },
       {
         "id": 19,
         "title": "Marketing Strategy Seminar",
         "year": "2022-23",
-        "category": "technical",
-        "image": "marketing.avif"
+        "category": "Business Administration",
+        "image": "MarketingMania.jpg"
       },
       {
         "id": 20,
-        "title": "Startup Networking Event",
+        "title": "Entrepreneurship Summit",
         "year": "2023-24",
         "category": "technical",
-        "image": "startupentrepreneur.avif"
+        "image": "EntrepreneurshipSummit.jpg"
       },
       {
         "id": 21,
-        "title": "Science Model Exhibition",
+        "title": "Annual Sports Meet",
         "year": "2024-25",
-        "category": "technical",
-        "image": "science-fair.avif"
+        "category": "sports",
+        "image": "AnnualSportsMeet.jpg"
       },
       {
         "id": 22,
-        "title": "Physics Quiz Contest",
+        "title": "Drama Festival",
         "year": "2022-23",
-        "category": "technical",
-        "image": "physics.avif"
+        "category": "cultural",
+        "image": "DramaFestival.jpg"
       },
       {
         "id": 24,
         "title": "Quantum Mechanics Talk",
         "year": "2024-25",
-        "category": "technical",
-        "image": "quantumphysics.avif"
+        "category": "Physics",
+        "image": "QuantumMechanicsWorkshop.jpg"
       },
       {
         "id": 26,
-        "title": "Renewable Energy Workshop",
+        "title": "Astrophysics Seminar",
         "year": "2023-24",
-        "category": "technical",
-        "image": "renewableenergy.avif"
+        "category": "Physics",
+        "image": "AstrophysicsSeminar.jpg"
       },
      
       {
@@ -161,14 +161,14 @@
         "title": "Debate Skills Competition",
         "year": "2022-23",
         "category": "cultural",
-        "image": "debatediscussion.avif"
+        "image": "DebateCompetition.jpg"
       },
       {
         "id": 29,
-        "title": "Writing Workshop",
+        "title": "Literary Festival",
         "year": "2023-24",
-        "category": "cultural",
-        "image": "writingcreativity.avif"
+        "category": "English",
+        "image": "LiteraryFestival.jpg"
       }
     ]
   }

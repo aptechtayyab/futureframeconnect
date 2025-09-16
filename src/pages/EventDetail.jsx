@@ -32,7 +32,7 @@ const EventDetail = () => {
         {/* Image Section */}
         <div className="col-md-6 col-12 mb-3 mb-md-0 text-center">
           <img
-            src={`/${event.image}`}
+            src={event.image}
             alt={event.title}
             className="event-img img-fluid"
           />
@@ -52,7 +52,7 @@ const EventDetail = () => {
           </div>
           <Link to="/register"> 
             <button
-              className="register-btn mt-3"
+              className="reg-btn mt-3"
             >
               Register Now
             </button>

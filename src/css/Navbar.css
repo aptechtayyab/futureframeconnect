@@ -133,3 +133,26 @@
       display: block;
     }
   }
+  @media (max-width: 425px) {
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: -220px;
+      background: #0a1f44;
+      flex-direction: column;
+      width: 220px;
+      padding: 20px;
+      gap: 20px;
+      transition: right 0.3s ease;
+      height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+  
+    .nav-links.active {
+      right: 0;
+    }
+  
+    .menu-btn {
+      display: block;
+    }
+  }

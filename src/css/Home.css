@@ -340,8 +340,8 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   /* text-shadow: 0 0 15px rgba(255, 255, 255, 0.5); */
-  margin-bottom: 10px;
-  margin-top: 14px;
+  margin: 10px;
+  /* margin-top: 14px; */
   animation: home-fadeInDown 1.5s ease forwards;
 }
 
@@ -357,7 +357,7 @@ section {
 }
 
 .home-welcome-subtitle {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #dcdcdc;
   margin-bottom: 30px;
   animation: home-fadeInUp 2s ease forwards;
@@ -428,13 +428,12 @@ section {
 }
 
 .event-grid {
-  display: flex;
+   display: flex;
   justify-content: center;
   gap: 20px;
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 .home-event-card {
   width: 300px;
@@ -582,15 +581,6 @@ section {
  
   transform: translateY(-8px);
 }
-
-.carousel-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.35);
-}
 /* ---- Bookmark Icon Styling ---- */
 .bookmark-icon {
   position: absolute;
@@ -647,8 +637,8 @@ section {
 @media (max-width: 768px) {
   .home-welcome-section {
     height: auto;
-    padding: 40px 20px;
-    border-radius: 30px;
+    padding: 20px 20px;
+    /* border-radius: 30px; */
   }
   .home-welcome-title {
     font-size: 2rem;

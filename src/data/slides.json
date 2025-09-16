@@ -1,16 +1,16 @@
 [
     {
-      "img": "main-banner1.jpg",
+      "img": "/main-banner1.jpg",
       "title": "Organize & Join College Events",
       "desc": "From Tech Fests to Cultural Weeks — everything at one place with instant registrations and reminders."
     },
     {
-      "img": "secondbanner.jpg",
+      "img": "/secondbanner.jpg",
       "title": "Stay Connected",
       "desc": "Never miss important campus announcements and celebrations."
     },
     {
-      "img": "about-banner.jpg",
+      "img": "/about-banner.jpg",
       "title": "Engage & Participate",
       "desc": "Sign up, volunteer, and be a part of a thriving campus community."
     }

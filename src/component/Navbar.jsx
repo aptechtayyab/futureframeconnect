@@ -31,7 +31,7 @@ const Navbar = () => {
         <li><Link to="/register">Register</Link></li>
         <li><Link to="/feedback">Feedback</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
-        {/* <li><Link to="/bookmark">Bookmarks</Link></li> */}
+        <li><Link to="/bookmark">Bookmarks</Link></li>
       </ul>
     </nav>
   );

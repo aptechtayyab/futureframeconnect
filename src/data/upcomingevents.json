@@ -5,7 +5,7 @@
     "date": "2025-07-20T18:00:00",
     "venue": "Lahore Stadium",
     "description": "A dynamic technology festival showcasing innovation, coding competitions, and futuristic hackathons.",
-    "image": "hackathocoding.avif",
+    "image": "/Hackathon2023.jpg",
     "link": "/events/techfest-2025"
   },
   {
@@ -14,7 +14,7 @@
     "date": "2025-08-05T10:00:00",
     "venue": "City Cultural Center",
     "description": "A vibrant cultural showcase featuring music, art, traditions, performances, and exhibitions for all.",
-    "image": "culturaldance.avif",
+    "image": "/CulturalNight.jpg",
     "link": "/events/cultural-week"
   },
   {
@@ -23,7 +23,7 @@
     "description": "A guest lecture on modern concepts of quantum mechanics.",
     "date": "2025-08-05T10:00:00",
     "venue": "Seminar Hall",
-    "image": "quantumphysics.avif",
+    "image": "/QuantumMechanicsWorkshop.jpg",
     "link": "/events/cultural-week"
   },
   {
@@ -32,6 +32,6 @@
     "description": "A competition capturing the beauty of campus life and creative themes.",
     "date": "2025-09-15T09:00:00",
     "venue": "Auditorium Lobby",
-    "image": "photography.avif"
+    "image": "/PhotographyContest.jpg"
   }
 ]

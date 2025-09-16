@@ -12,7 +12,7 @@
       "type": "academic",
       "organizer": "Academic Committee",
       "contact": "academic@college.edu",
-      "image": "Research Symposium.avif"
+      "image": "/researchsymposium.jpg"
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "type": "academic",
       "organizer": "Math Club",
       "contact": "mathclub@college.edu",
-      "image": "math-workshop.avif"
+      "image": "/MathematicsWorkshop.jpg"
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "type": "academic",
       "organizer": "Science Committee",
       "contact": "science@college.edu",
-      "image": "science-fair.avif"
+      "image": "/ScienceFair.jpg"
     },
     {
       "id": 4,
@@ -54,7 +54,7 @@
       "type": "academic",
       "organizer": "Literary Club",
       "contact": "litclub@college.edu",
-      "image": "literature-seminar.avif"
+      "image": "/LiteratureSeminar.jpg"
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "type": "technical",
       "organizer": "Tech Club",
       "contact": "techclub@college.edu",
-      "image": "technologyfestival.avif"
+      "image": "/technologyfestival.jpg"
     },
     {
       "id": 6,
@@ -82,7 +82,7 @@
       "type": "technical",
       "organizer": "AI Research Group",
       "contact": "ai-research@college.edu",
-      "image": "artificialintelligence.avif"
+      "image": "/WorkshopAI.jpg"
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "type": "technical",
       "organizer": "Coding Club",
       "contact": "codingclub@college.edu",
-      "image": "hackathocoding.avif"
+      "image": "/Hackathon2023.jpg"
     },
     {
       "id": 8,
@@ -110,7 +110,7 @@
       "type": "technical",
       "organizer": "Cyber Club",
       "contact": "cyberclub@college.edu",
-      "image": "cybersecurity.avif"
+      "image": "/CyberSecuritySeminar.jpg"
     },
     {
       "id": 9,
@@ -124,7 +124,7 @@
       "type": "cultural",
       "organizer": "Cultural Committee",
       "contact": "cultural@college.edu",
-      "image": "culturaldance.avif"
+      "image": "/CulturalNight.jpg"
     },
     {
       "id": 10,
@@ -138,7 +138,7 @@
       "type": "cultural",
       "organizer": "Art Club",
       "contact": "artclub@college.edu",
-      "image": "artpainting.avif"
+      "image": "/ArtExhibition.jpg"
     },
     {
       "id": 11,
@@ -152,7 +152,7 @@
       "type": "cultural",
       "organizer": "Photography Club",
       "contact": "photo@college.edu",
-      "image": "photography.avif"
+      "image": "/PhotographyContest.jpg"
     },
     {
       "id": 12,
@@ -166,7 +166,7 @@
       "type": "cultural",
       "organizer": "Drama Club",
       "contact": "drama@college.edu",
-      "image": "dramatheatre.avif"
+      "image": "/DramaFestival.jpg"
     },
     {
       "id": 13,
@@ -180,7 +180,7 @@
       "type": "sports",
       "organizer": "Sports Committee",
       "contact": "sports@college.edu",
-      "image": "sportsstadium.webp"
+      "image": "/AnnualSportsMeet.jpg"
     },
     {
       "id": 14,
@@ -194,7 +194,7 @@
       "type": "sports",
       "organizer": "Cricket Club",
       "contact": "cricket@college.edu",
-      "image": "cricket.webp"
+      "image": "/CricketTournament.jpg"
     },
     {
       "id": 15,
@@ -208,7 +208,7 @@
       "type": "sports",
       "organizer": "Football Club",
       "contact": "football@college.edu",
-      "image": "footballsoccer.webp"
+      "image": "/FootballChampionship.jpg"
     },
     {
       "id": 16,
@@ -222,7 +222,7 @@
       "type": "sports",
       "organizer": "Basketball Club",
       "contact": "basketball@college.edu",
-      "image": "basketball.avif"
+      "image": "/BasketballLeague.jpg"
     },
    
     {
@@ -237,7 +237,7 @@
       "type": "sports",
       "organizer": "Badminton Club",
       "contact": "badminton@college.edu",
-      "image": "badminton.avif"
+      "image": "/BadmintonLeague.jpg"
     },
     {
       "id": 21,
@@ -251,50 +251,9 @@
       "type": "health",
       "organizer": "Wellness Club",
       "contact": "wellness@college.edu",
-      "image": "yoga.avif"
+      "image": "/YogaWorkshop.jpg"
     },
-    {
-      "id": 22,
-      "title": "Blood Donation Camp",
-      "description": "Voluntary blood donation drive with medical check-ups.",
-      "longdescription": "The Blood Donation Camp encourages voluntary donations to help hospitals and patients in need. Medical professionals conduct health check-ups, awareness sessions, and ensure safe procedures. The event fosters social responsibility, compassion, and community engagement.",
-      "date": "2024-01-15",
-      "time": "09:00 AM - 03:00 PM",
-      "venue": "Medical Block",
-      "department": "NSS Unit",
-      "type": "social",
-      "organizer": "NSS Committee",
-      "contact": "nss@college.edu",
-      "image": "blooddonation.avif"
-    },
-    {
-      "id": 23,
-      "title": "Tree Plantation Drive",
-      "description": "Planting saplings for a greener campus.",
-      "longdescription": "The Tree Plantation Drive is an initiative to promote environmental sustainability. Students plant saplings around the campus, contributing to cleaner air and a healthier environment. The activity instills environmental responsibility, teamwork, and awareness of ecological issues.",
-      "date": "2025-01-20",
-      "time": "08:00 AM - 12:00 PM",
-      "venue": "Campus Grounds",
-      "department": "Eco Club",
-      "type": "social",
-      "organizer": "Eco Club",
-      "contact": "eco@college.edu",
-      "image": "treeplant.avif"
-    },
-    {
-      "id": 24,
-      "title": "Cleanliness Drive",
-      "description": "Awareness campaign and cleaning activity in and around campus.",
-      "longdescription": "The Cleanliness Drive focuses on maintaining hygiene and promoting awareness about waste management. Students participate in cleaning areas around the campus, spreading the message of cleanliness and civic responsibility.",
-      "date": "2022-02-05",
-      "time": "09:00 AM - 01:00 PM",
-      "venue": "Campus Premises",
-      "department": "NSS Unit",
-      "type": "social",
-      "organizer": "NSS Volunteers",
-      "contact": "nss@college.edu",
-      "image": "cleanliness.avif"
-    },
+ 
     {
       "id": 25,
       "title": "Entrepreneurship Summit",
@@ -307,22 +266,9 @@
       "type": "technical",
       "organizer": "E-Cell",
       "contact": "ecell@college.edu",
-      "image": "entrepreneur.avif"
+      "image": "/EntrepreneurshipSummit.jpg"
     },
-    {
-      "id": 26,
-      "title": "Alumni Meet",
-      "description": "Reunion of alumni with interactive sessions and cultural programs.",
-      "longdescription": "The Alumni Meet reconnects past graduates with the college community, providing opportunities for networking, mentorship, and sharing experiences. The event includes cultural programs, panel discussions, and informal gatherings to strengthen alumni relations.",
-      "date": "2024-03-02",
-      "time": "06:00 PM - 10:00 PM",
-      "venue": "Convention Hall",
-      "department": "Alumni Cell",
-      "type": "social",
-      "organizer": "Alumni Association",
-      "contact": "alumni@college.edu",
-      "image": "alumni.webp"
-    },
+   
     {
       "id": 27,
       "title": "Fest Inauguration",
@@ -335,50 +281,7 @@
       "type": "cultural",
       "organizer": "Fest Committee",
       "contact": "fest@college.edu",
-      "image": "festinaug.avif"
-    },
-    
-    {
-      "id": 30,
-      "title": "Robotics Challenge",
-      "description": "Robotics competition with autonomous bots and live demo.",
-      "longdescription": "The Robotics Challenge involves designing and programming autonomous robots to perform specific tasks. Participants showcase innovation, problem-solving, and engineering skills. The live demos attract spectators and encourage technical learning.",
-      "date": "2024-04-20",
-      "time": "10:00 AM - 05:00 PM",
-      "venue": "Robotics Lab",
-      "department": "Mechanical Engineering",
-      "type": "technical",
-      "organizer": "Robotics Club",
-      "contact": "robotics@college.edu",
-      "image": "robotics.avif"
-    },
-    {
-      "id": 31,
-      "title": "Science Exhibition",
-      "description": "Exhibition of innovative science projects and models.",
-      "longdescription": "The Science Exhibition showcases innovative models, experiments, and projects developed by students across disciplines. Visitors engage with interactive displays and learn about scientific principles and applications.",
-      "date": "2025-05-01",
-      "time": "10:00 AM - 04:00 PM",
-      "venue": "Exhibition Hall",
-      "department": "Science Department",
-      "type": "technical",
-      "organizer": "Science Club",
-      "contact": "science@college.edu",
-      "image": "scienceexpo.webp"
-    },
-    {
-      "id": 32,
-      "title": "Math Quiz",
-      "description": "Inter-college quiz competition on problem-solving and puzzles.",
-      "longdescription": "The Math Quiz challenges participants with logical puzzles, problem-solving rounds, and rapid-fire questions. The event sharpens analytical thinking and mathematical skills, encouraging teamwork and quick decision-making.",
-      "date": "2022-05-12",
-      "time": "11:00 AM - 02:00 PM",
-      "venue": "Lecture Hall 1",
-      "department": "Mathematics",
-      "type": "technical",
-      "organizer": "Math Club",
-      "contact": "math@college.edu",
-      "image": "mathquiz.avif"
+      "image": "/FestInauguration.jpg"
     },
     {
       "id": 33,
@@ -392,7 +295,7 @@
       "type": "cultural",
       "organizer": "Debate Club",
       "contact": "debate@college.edu",
-      "image": "debate.avif"
+      "image": "/DebateCompetition.jpg"
     },
     {
       "id": 34,
@@ -406,7 +309,7 @@
       "type": "competition",
       "organizer": "Strategy Club",
       "contact": "strategy@college.edu",
-      "image": "business-strategy.webp"
+      "image": "/BusinessStrategySummit.jpg"
     },
     {
       "id": 35,
@@ -420,7 +323,7 @@
       "type": "fair",
       "organizer": "Entrepreneurship Society",
       "contact": "entrepreneurship@college.edu",
-      "image": "entrepreneurship-fair.webp"
+      "image": "/EntrepreneurshipFair.jpg"
     },
     {
       "id": 36,
@@ -434,7 +337,7 @@
       "type": "competition",
       "organizer": "Marketing Club",
       "contact": "marketing@college.edu",
-      "image": "marketing-mania.webp"
+      "image": "/MarketingMania.jpg"
     },
     {
       "id": 37,
@@ -448,7 +351,7 @@
       "type": "seminar",
       "organizer": "Finance Society",
       "contact": "finance@college.edu",
-      "image": "finance-forum.webp"
+      "image": "/FinanceForum.jpg"
     },
     {
       "id": 38,
@@ -462,7 +365,7 @@
       "type": "workshop",
       "organizer": "Physics Society",
       "contact": "physics@college.edu",
-      "image": "quantum-mechanics.webp"
+      "image": "/QuantumMechanicsWorkshop.jpg"
     },
     {
       "id": 39,
@@ -476,7 +379,7 @@
       "type": "seminar",
       "organizer": "Astronomy Club",
       "contact": "astronomy@college.edu",
-      "image": "astrophysics-seminar.webp"
+      "image": "/AstrophysicsSeminar.jpg"
     },
     {
       "id": 40,
@@ -490,21 +393,7 @@
       "type": "festival",
       "organizer": "Literary Society",
       "contact": "literature@college.edu",
-      "image": "literary-festival.webp"
-    },
-    {
-      "id": 41,
-      "title": "Drama Night",
-      "description": "Stage performances showcasing plays and student talent.",
-      "longdescription": "Drama Night highlights the theatrical talents of English department students through stage plays, skits, and performances. The event fosters creativity, confidence, and artistic expression in an engaging atmosphere.",
-      "date": "2024",
-      "time": "06:00 PM - 09:00 PM",
-      "venue": "Main Stage Hall",
-      "department": "English",
-      "type": "performance",
-      "organizer": "Drama Club",
-      "contact": "drama@college.edu",
-      "image": "drama-night.webp"
+      "image": "/LiteraryFestival.jpg"
     }
   ]
 } 

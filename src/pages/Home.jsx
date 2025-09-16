@@ -11,13 +11,16 @@ import { FaBookmark, FaRegBookmark } from "react-icons/fa";
 import { toggleBookmark, isBookmarked } from "../utils/bookmarkUtils";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
 
+
 const Home = () => {
+  
   useDocumentTitle("Home - CampusConnect");
   const navigate = useNavigate();
   const [events, setEvents] = useState([]);
-  const [timeLeft, setTimeLeft] = useState({}); // ✅ FIXED
+  const [, setTimeLeft ] = useState({});
   const [showModal, setShowModal] = useState(true);
 
+  //  input name aur confirmed name alag state
   const [username, setUsername] = useState(""); 
   const [savedName, setSavedName] = useState(""); 
   const [userType, setUserType] = useState("");
@@ -29,6 +32,7 @@ const Home = () => {
       .then((data) => setEvents(data));
   }, []);
 
+  // live update countdown every second
   useEffect(() => {
     const timer = setInterval(() => {
       const countdowns = {};
@@ -56,6 +60,7 @@ const Home = () => {
     return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
   };
 
+  // Stats counters
   const stats = [
     { label: "Events Organized", target: 120 },
     { label: "Students Registered", target: 5000 },
@@ -99,6 +104,7 @@ const Home = () => {
     }, stepTime);
   };
 
+  // Regex validation function
   const validateName = (name) => {
     const regex = /^[A-Za-z\s]+$/; 
     if (!regex.test(name)) {
@@ -109,6 +115,7 @@ const Home = () => {
     return true;
   };
 
+  // Handle save
   const handleSave = () => {
     if (username.trim() && validateName(username)) {
       setSavedName(username); 
@@ -116,6 +123,7 @@ const Home = () => {
     }
   };
 
+  // Live input validation
   const handleChange = (e) => {
     const value = e.target.value;
     setUsername(value);
@@ -141,9 +149,9 @@ const Home = () => {
               onChange={(e) => setUserType(e.target.value)}
             >
               <option value="">Select user type</option>
-              <option value="student">Student</option>
-              <option value="staff">Staff</option>
-              <option value="guest">Guest</option>
+              <option value="Student">Student</option>
+              <option value="Staff">Staff</option>
+              <option value="Guest">Guest</option>
             </select>
             <button onClick={handleSave} disabled={!!error || !username.trim()}>
               Continue
@@ -154,11 +162,14 @@ const Home = () => {
 
       {/* ----------------------- Welcome Section ----------------------- */}
       <section className="home-welcome-section">
-        <h1 className="home-welcome-subtitle">
+        <h1 className="home-welcome-subtitle mt-3">
           {savedName
-            ? `Welcome ${savedName} As A ${userType} to CampusConnect`
+            ? `Welcome ${savedName} As A ${userType} To CampusConnect`
             : "Welcome to Campus Connect"}
         </h1>
+         {/* <p className="home-welcome-subtitle">
+          Event Hub – Stay Updated, Stay Involved!
+        </p>  */}
       </section>
 
       {/* ----------------------- Banner Section ----------------------- */}
@@ -360,10 +371,10 @@ const Home = () => {
           Event Gallery
         </h2>
         <div className="home-gallery-grid">
-          <img src="artificialintelligence.avif" alt="gallery1" />
-          <img src="basketball.avif" alt="gallery2" />
-          <img src="culturaldance.avif" alt="gallery3" />
-          <img src="hackathocoding.avif" alt="gallery4" />
+          <img src="WorkshopAI.jpg" alt="gallery1" />
+          <img src="BasketballLeague.jpg" alt="gallery2" />
+          <img src="BusinessStrategySummit.jpg" alt="gallery3" />
+          <img src="DebateCompetition.jpg" alt="gallery4" />
         </div>
       </section>
 
@@ -376,7 +387,7 @@ const Home = () => {
           <div className="home-highlight">
             <h4>Annual Tech Competition</h4>
             <p className="home-muted">
-              Register now for inter-university tech competitions next month — 
+              Register now for inter-university tech competitions next month —
               limited seats.
             </p>
           </div>

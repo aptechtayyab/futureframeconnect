@@ -1,6 +1,7 @@
 .eventdetail-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 3rem 1rem;
     background: #f5f7fa;
   }
@@ -114,4 +115,84 @@
       transform: translateY(0);
     }
   }
-  
+  @media (max-width: 992px) {
+  .eventdetail-card {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .eventdetail-img {
+    max-width: 100%;
+    min-width: unset;
+    height: 250px;
+  }
+
+  .eventdetail-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .eventdetail-body {
+    padding: 1.5rem;
+  }
+
+  .eventdetail-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .eventdetail-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .eventdetail-body {
+    padding: 1.2rem;
+  }
+
+  .eventdetail-title {
+    font-size: 1.6rem;
+  }
+
+  .eventdetail-desc {
+    font-size: 0.95rem;
+  }
+
+  .eventdetail-countdown {
+    font-size: 1.1rem;
+  }
+
+  .eventdetail-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .eventdetail-btn {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Small Mobile (≤ 480px) */
+@media (max-width: 480px) {
+  .eventdetail-wrapper {
+    padding: 1.5rem 0.8rem;
+  }
+
+  .eventdetail-title {
+    font-size: 1.4rem;
+  }
+
+  .eventdetail-desc {
+    font-size: 0.9rem;
+  }
+
+  .eventdetail-info p {
+    font-size: 0.9rem;
+  }
+
+  .eventdetail-countdown {
+    font-size: 1rem;
+  }
+}
